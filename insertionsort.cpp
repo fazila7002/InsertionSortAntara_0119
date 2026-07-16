@@ -59,3 +59,23 @@ void insertionSort()
         }
     }
 }
+
+void output()
+{
+    cout << endl;
+    cout << "========================" << endl;
+    cout << "Element Yang Sudah Di Urut" << endl;
+    cout << "========================" << endl;
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << "Data ke " << i + 1 << " : " << arr[i] << endl;
+    }
+}
+
+int main()
+{
+    input();
+    insertionSort();
+    output();
+}
