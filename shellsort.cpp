@@ -67,3 +67,23 @@ void shellSort(int arr[], int n)
         outputdata(arr, n);
     }
 }
+
+int main()
+{
+    inputData(arr, n);
+
+    cout << " Data awal : " << endl;
+    outputdata(arr, n);
+    cout << endl;
+
+    cout << " ===== PROSES PENGURUTAN =====" << endl;
+    shellSort(arr, n);
+    cout << " =============================" << endl;
+    cout << endl;
+
+    cout << " Data yang telah diurutkan dengan algoritma Shell Sort :" << endl;
+    outputdata(arr, n);
+    cout << endl;
+
+    return 0;
+}
